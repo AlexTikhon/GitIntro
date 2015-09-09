@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>BBC - Homepage</title>
+    <link href="Reset.css" rel="stylesheet" />
+    <link href="Style BBC.css" rel="stylesheet" />
+    <script defer>
+
+        function hide() {
+            var divTabber1 = document.getElementById('tabber1');
+            var divTabber2 = document.getElementById('tabber2');
+            var reference1 = (event.srcElement.id == 'switch1') ? true : false;
+            var reference2 = (event.srcElement.id == 'switch2') ? true : false;
+            if (reference1) {
+                divTabber2.classList.add('hidden');
+                divTabber1.classList.remove('hidden');
+            } else {
+                divTabber1.classList.add('hidden');
+                divTabber2.classList.remove('hidden');
+            }
+        }
+        // status of menubar       
+        function hideNavTab() {
+             document.getElementById('tabNavMore').classList.toggle('visible');
+            
+            //if (divNavCont.classList.contains('hidden')) {
+            //    //divNavCont.classList.remove('hidden');              
+            //    //divNavCont.classList.toggle('visible');
+            //} else {                 
+            //    //divNavCont.classList.add('hidden');
+            //    divNavCont.classList.toggle('hidden');
+            //}             
+        }
+        document.getElementsByTagName
+    </script>
+
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header">
+            <div class="logo"><a href="http://www.bbc.com/" title="British Broadcasting Corporation"><img src="img/blq-blocks_grey_alpha.png" /></a></div>
+            <form method="get" action="" class="form-search"><div class="div-search"><input type="text" maxlength="120" placeholder="Search" class="search" /><input type="image" src="img/blq-search_grey_alpha.png" class="button" /></div></form>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-more"><a id="navSwitch" onclick="hideNavTab()">More...</a></li>
+                    <li class="nav-radio"><a href="http://www.bbc.co.uk/radio">Radio</a></li>
+                    <li class="nav-TV"><a href="http://www.bbc.com/tv">TV</a></li>
+                    <li class="nav-shop"><a href="http://www.bbcshop.com/">Shop</a></li>
+                    <li class="nav-future"><a href="http://www.bbc.com/future/">Future</a></li>
+                    <li class="nav-earth"><a href="http://www.bbc.com/earth/world">Earth</a></li>
+                    <li class="nav-weather"><a href="http://www.bbc.com/weather/">Weather</a></li>
+                    <li class="nav-sport"><a href="http://www.bbc.com/sport/0/">Sport</a></li>
+                    <li class="nav-news"><a href="http://www.bbc.com/news">News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <h1 class="hide">BBC - Homepage</h1>
+        <div id="tabNavMore" style="width:100%; height:60px" class="hidden">
+            <h1>Looook !</h1>
+        </div>
+
+        <section class="colA">     </section>
+
+        <section class="colB">
+            <h2 class="colB-title">WEDNESDAY, 8 JULY</h2>
+            <section class="containerB">
+                <div class="contB1">
+                    <a class="contB1-image-link" href="http://www.bbc.com/news/world-europe-33437797" title="'Final deadline' for Greece debt plan"><img src="img/_83937225_027945802-1.jpg" /><span class="contB1-image-link-overlay"><span class="contB1-image-link-overlay-text"><span class="contB1-image-title">'Final deadline' for Greece debt plan</span></span></span></a>
+                    <p>The eurozone gives Greece until Thursday to present final proposals to secure a deal with creditors, and calls a full EU summit for Sunday.</p>
+                </div>
+                <div class="contB2 clearfix">
+                    <div class="contB2-grid first"><a href="http://www.bbc.com/sport/live/cricket/32809230" title="Ashes: England v Australia"><img src="img/_83294492_aerialreefview-getty.jpg" /><span>Ashes:England v Australia</span></a></div>
+                    <div class="contB2-grid"><a href="http://www.bbc.com/news/world-europe-33430957" title="Lavish lifestyles on hold for rich Greeks"><img src="img/_83596194_creditjoecmoreno.final.jpg" /><span>Lavish lifestyles on hold for rich Greeks</span></a></div>
+                    <div class="contB2-grid"><a href="http://www.bbc.com/news/world-asia-india-33421572" title="India's deadly medical school exam scandal"><img src="img/_83766040_83766039.jpg" /><span>India's deadly medical school exam scandal</span></a></div>
+                    <div class="contB2-grid last"><a href="http://www.bbc.com/capital/story/20150707-the-friendliest-town-in-europe" title="Is this the world's friendliest city?"><img src="img/_83931179_83931177.jpg" /><span>Is this the world's friendliest city?</span></a></div>
+                </div>
+            </section>
+            <section class="worldservice">
+                <h2><a class="worldservice-h2" href="http://www.bbc.co.uk/worldservice/languages/index.shtml" title="BBC IN YOUR LANGUAGE">BBC IN YOUR LANGUAGE</a></h2>
+                <section class="worldservice-stor clearfix">
+                    <section class="ws-story">
+                        <h3 class="ws-story-lang"><a href="http://www.bbc.co.uk/russian/">Russian</a></h3>
+                        <a href="/russian/international/2015/07/150708_greece_debt_crisis" title="Ципрас: предложения по выходу из кризиса почти готовы">Ципрас: предложения по выходу из кризиса почти готовы</a>
+                    </section>
+                    <section class="ws-story">
+                        <h3 class="ws-story-lang"><a href="http://www.bbc.co.uk/ukrainian/"> Ukrainian </a></h3>
+                        <a href="/ukrainian/politics/2015/07/150708_greece_debt_crisis_tsipras_she" title="Ціпрас закликав до європейської єдності">Ціпрас закликав до європейської єдності</a>
+                    </section>
+                    <section class="ws-story">
+                        <h3 class=" ws-story-lang"><a href="http://www.bbc.co.uk/persian/"> Persian </a></h3>
+                        <a href="/persian/iran/2015/07/150708_l12_iran_hashemi_rafsanjani_guardian_nuclear_talks" title="رفسنجانی: تابوی مذاکره با آمریکا را شکستیم، بازگشایی سفارت آمریکا غیرممکن نیست">رفسنجانی: تابوی مذاکره با آمریکا را شکستیم، بازگشایی سفارت آمریکا غیرممکن نیست</a>
+                    </section>
+                    <section class="ws-story">
+                        <h3 class="ws-story-lang"><a href="http://www.bbc.co.uk/uzbek/"> Uzbek </a></h3>
+                        <a href="/uzbek/uzbekistan/2015/07/150708_gulnara_karimova_birthday" title="Гулнора Каримовани туғилган куни билан табриклашмоқда">Гулнора Каримовани туғилган куни билан табриклашмоқда</a>
+                    </section>
+                </section>
+                <section class="worldservice-lang clearfix">
+                    <h3 class="ws-story-lang"><a href="http://www.bbc.co.uk/worldservice/languages/index.shtml"> More languages... </a></h3>
+                </section>
+            </section>
+        </section>
+
+        <section class="colC">
+            <section class="BBC-news clearfix">
+                <h3 class="BBC-news-title">BBC News Daily Newsletter</h3>
+                <div style="padding:0 8px 0 8px">
+                    <img class="BBC-news-img" src="img/p02hzxd4.png" />
+                    <h4 class="BBC-news-h4">Today's breaking news and more in your inbox</h4>
+                    <a style="text-align:center; width: 150px; background:none repeat scroll 0 0 #333333; border: medium none; color: #FFFFFF; margin:9px 0 6px 12px; padding: 2px 11px; line-height: 26px; font-size: 16px; font-weight: bold; float: left; display: inline;" href="http://adclick.g.doubleclick.net/aclk?sa=L&ai=B7d6cMzKeVfJOjoRmvf2m0AXSlrPxQQAAABABIAA4AFjSpJnG6QFgcYIBF2NhLXB1Yi0yOTE3MjkzODI4NTc4MzAzsgELd3d3LmJiYy5jb226AQlnZnBfaW1hZ2XIAQnaARNodHRwOi8vd3d3LmJiYy5jb20vwAIC4AIA6gIqNDgxNy9iYmNjb20ubGl2ZS5zaXRlLnd3dy9iYmNfaG9tZXBhZ2VfaW50-ALy0R6QA4QHmAOMBqgDAdAEkE7gBAGQBgGgBiDYBwA&num=0&cid=5GgMp9L0FdRnOxU-5gcZ-LX4&sig=AOD64_1TLQWQw5lZTzszHZ1TqYJimDKaUA&client=ca-pub-2917293828578303&adurl=http://pages.email.bbc.com/subscribe">Sign up now</a>
+                </div>
+            </section>
+
+            <section class="most-popular">
+                <h3 style="font-size: 1em;">Most Popular in News</h3>
+                <div class="most-popular-cont">
+                    <ul class="tabs clearfix">
+                        <li><a id="switch1" onclick="hide()">Read</a></li>
+                        <li><a id="switch2" onclick="hide()">Watched/Listened</a></li>
+                    </ul>
+                    <div class="box-wrap">
+                        <div id="tabber1">
+                            <ul>
+                                <li><a href="http://www.bbc.co.uk/news/world-europe-33457251"><span>I.</span> BBC News </a></li>
+                                <li><a href="http://www.bbc.co.uk/news/blogs-trending-33432788"><span>II.</span> The photogenic new police officers patrolling Kiev's streets </a></li>
+                                <li><a href="http://www.bbc.co.uk/news/uk-scotland-tayside-central-33438667"><span>III.</span> Crash victims may have lain for days </a></li>
+                                <li><a href="http://www.bbc.co.uk/news/world-asia-india-33456885"><span>IV.</span> BBC News </a></li>
+                                <li><a href="http://www.bbc.co.uk/news/magazine-33426889"><span>V.</span> The problem with the skyscraper wind effect </a></li>
+                            </ul>
+                        </div>
+                        <div id="tabber2">
+                            <ul>
+                                <li><a href="http://www.bbc.co.uk/news/world-europe-33456741"><span>I.</span> Tornado drama captured in Venice, Italy </a></li>
+                                <li><a href="http://www.bbc.co.uk/news/10462520"><span>II.</span> One-minute World News </a></li>
+                                <li><a href="http://www.bbc.co.uk/news/world-europe-33457384"><span>III.</span> Greek businesses gear up for Grexit </a></li>
+                                <li><a href="http://www.bbc.co.uk/news/uk-33457008"><span>IV.</span> Huge street party for Queen's 90th </a></li>
+                                <li><a href="http://www.bbc.co.uk/news/magazine-28900753"><span>V.</span> Cats uncovered: Catching prey </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        <section class="explore-BBC clearfix">
+            <h2>Explore the BBC</h2>
+            <section class="explore-BBC-col1">
+                <h3><a href="http://www.bbc.com/news/">News</a></h3>
+                <div class="explore-BBC-col">
+                    <ul>
+                        <li><a href="http://www.bbc.co.uk/news/world/africa/">Africa</a></li>
+                        <li><a href="http://www.bbc.co.uk/news/world/asia/">Asia</a></li>
+                        <li><a href="http://www.bbc.com/news/world/europe/">Europe</a></li>
+                        <li><a href="http://www.bbc.com/news/world/latin_america/">Latin America</a></li>
+                        <li><a href="http://www.bbc.com/news/world/middle_east/">Middle East</a></li>
+                        <li><a href="http://www.bbc.com/news/uk/">UK</a></li>
+                        <li><a href="http://www.bbc.com/news/world/us_and_canada/">US & Canada</a></li>
+                        <li><a href="http://www.bbc.com/news/also_in_the_news/">Also in the News</a></li>
+                    </ul>
+                </div>
+                <div class="explore-BBC-col">
+                    <ul>
+                        <li><a href="http://www.bbc.com/news/business/">Business</a></li>
+                        <li><a href="http://www.bbc.com/news/business-22434141">Entrepreneurship</a></li>
+                        <li><a href="http://www.bbc.com/news/business-11428889">Technology of Business</a></li>
+                        <li><a href="http://www.bbc.com/news/business-12686570">Knowledge Economy</a></li>
+                        <li><a href="http://www.bbc.com/news/health/">Health</a></li>
+                        <li><a href="http://www.bbc.com/news/science_and_environment/">Science & Environment</a></li>
+                        <li><a href="http://www.bbc.com/news/world/us_and_canada/">US & Canada</a></li>
+                        <li><a href="http://www.bbc.com/news/entertainment_and_arts/">Entertainment & Arts</a></li>
+                    </ul>
+                </div>
+                <p class="pAtoZ">Can't find it? Try the <a href="http://www.bbc.co.uk/a-z/">A to Z</a></p>
+            </section>
+            <section class="explore-BBC-col">
+                <h3><a href="http://www.bbc.com/sport">Sport</a></h3>
+                <ul>
+                    <li><a href="http://www.bbc.co.uk/sport/0/football/">Football</a></li>
+                    <li><a href="http://www.bbc.co.uk/sport/0/cricket/">Cricket</a></li>
+                    <li><a href="http://www.bbc.co.uk/sport/0/tennis/">Tennis</a></li>
+                    <li><a href="http://www.bbc.co.uk/sport/0/formula1/">Formula 1</a></li>
+                </ul>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbc.com/news/magazine/">Magazine</a></h3>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbc.co.uk/weather/">Weather</a></h3>
+            </section>
+            <section class="explore-BBC-col">
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbc.com/autos">Autos</a></h3>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbc.com/capital">Capital</a></h3>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbc.com/culture">Culture</a></h3>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbc.com/earth/world">Earth</a></h3>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbc.com/future">Future</a></h3>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbc.com/travel">Travel</a></h3>
+            </section>
+            <section class="explore-BBC-col">
+                <h3><a href="http://www.bbc.com/tv">TV Channels</a></h3>
+                <ul>
+                    <li><a href="http://www.bbc.com/news/world_radio_and_tv/">BBC World News</a></li>
+                    <li><a href="http://www.bbc.com/first">BBC First</a></li>
+                    <li><a href="http://bbcentertainment.com/">BBC Entertainment</a></li>
+                    <li><a href="http://www.bbcknowledge.com/">BBC Knowledge</a></li>
+                    <li><a href="http://www.bbclifestyle.com/">BBC Lifestyle</a></li>
+                    <li><a href="http://www.bbchd.com/">BBC HD</a></li>
+                    <li><a href="http://www.bbcaustralia.com/channels/uktv">UKTV</a></li>
+                    <li><a href="http://www.cbeebies.com/">Cbeebies</a></li>
+                </ul>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.topgear.com/uk/">Top Gear</a></h3>
+                <h3 class="explore-BBC-col-h3"><a href="http://www.bbcgoodfood.com/">Good Food</a></h3>
+            </section>
+        </section>
+        <footer class="footer clearfix">
+            <div class="footer-img">
+                <img src="img/light.png" alt="BBC" />
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="/aboutthebbc/">About the BBC</a></li>
+                    <li><a href="/accessibility/">Accessibility Help</a></li>
+                    <li><a href="/contact/">Contact the BBC</a></li>
+                    <li><a href="/guidance/">Parental Guidance</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/terms/">Terms of Use</a></li>
+                    <li><a href="/privacy/">Privacy</a></li>
+                    <li><a href="/privacy/cookies/about">Cookies</a></li>
+                </ul>
+                <ul>
+                    <li><a href="http://m.bbc.co.uk/">Mobile site</a></li>
+                    <li><a href="http://advertising.bbcworldwide.com">Advertise With Us</a></li>
+                    <li><a href="/privacy/cookies/international/">Ad Choices</a></li>
+                </ul>
+            </div>
+            <p>Copyright © 2015 BBC.<a href="/help/web/links/">The BBC is not responsible for the content of external sites. Read more.</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
