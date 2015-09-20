@@ -187,3 +187,11 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+Properties
+*.config
+*.csprog
+JavaScript.html
+.sln
+.gitattributes
+.gitignore
