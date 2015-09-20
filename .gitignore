@@ -190,7 +190,8 @@ ModelManifest.xml
 
 Properties
 *.config
-*.csprog
+WebApplication - BBC Homepage.csproj
+img
 JavaScript.html
-.sln
+WebApplication2.sln
 .gitattributes
